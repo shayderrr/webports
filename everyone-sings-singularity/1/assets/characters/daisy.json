@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Daisy Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Daisy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Daisy Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				18
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Daisy Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Daisy right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "daisy/DaisyFNF",
+	"position": [
+		160,
+		160
+	],
+	"healthicon": "icon-daisy",
+	"flip_x": false,
+	"healthbar_colors": [
+		253,
+		200,
+		253
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

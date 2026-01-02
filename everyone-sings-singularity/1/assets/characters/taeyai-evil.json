@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "doanything",
+			"indices": [],
+			"name": "TaeYai fly I do"
+		},
+		{
+			"offsets": [
+				4,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "TaeYai fly up"
+		},
+		{
+			"offsets": [
+				-10,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "TaeYai fly down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "TaeYai fly 0"
+		},
+		{
+			"offsets": [
+				31,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "TaeYai fly right"
+		},
+		{
+			"offsets": [
+				-70,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "TaeYai fly left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Taeyai_fly",
+	"position": [
+		-90,
+		-140
+	],
+	"healthicon": "taeyaimad",
+	"flip_x": false,
+	"healthbar_colors": [
+		102,
+		102,
+		102
+	],
+	"camera_position": [
+		-140,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

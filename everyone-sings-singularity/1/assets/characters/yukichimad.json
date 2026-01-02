@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				250,
+				80
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "yukichi angry right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				250,
+				80
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "yukichi angry left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				250,
+				80
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "yukichi angry down",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				250,
+				80
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "yukichi angry up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				250,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "yukichi angry idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yukichi_assets",
+	"position": [
+		210,
+		0
+	],
+	"healthicon": "yukichi Mad",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		-290,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

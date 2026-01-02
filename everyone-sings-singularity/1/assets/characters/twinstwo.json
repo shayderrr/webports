@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "AngyTwinIdle"
+		},
+		{
+			"offsets": [
+				0,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "AngyTwinRight"
+		},
+		{
+			"offsets": [
+				60,
+				100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "AngyTwinDown"
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "AngyTwinUp"
+		},
+		{
+			"offsets": [
+				50,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "AngyTwinLeft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AngyTwins",
+	"position": [
+		-90,
+		-70
+	],
+	"healthicon": "AngyTwins",
+	"flip_x": false,
+	"healthbar_colors": [
+		21,
+		21,
+		21
+	],
+	"camera_position": [
+		-40,
+		130
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				44,
+				13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Os_Left_Angry"
+		},
+		{
+			"offsets": [
+				-100,
+				-221
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Os_Down_Angry"
+		},
+		{
+			"offsets": [
+				48,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Os_Up_Angry"
+		},
+		{
+			"offsets": [
+				-121,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Os_Right_Angry"
+		},
+		{
+			"offsets": [
+				8,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "Os_danceLeft_Angry"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "Os_danceRight_Angry"
+		},
+		{
+			"offsets": [
+				-42,
+				212
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "notold",
+			"indices": [],
+			"name": "Os_NotOld"
+		},
+		{
+			"offsets": [
+				70,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hah",
+			"indices": [],
+			"name": "Os_HAH"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Oswald_Angry_Assets",
+	"position": [
+		-50,
+		210
+	],
+	"healthicon": "oswald",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		135,
+		255
+	],
+	"camera_position": [
+		-60,
+		160
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

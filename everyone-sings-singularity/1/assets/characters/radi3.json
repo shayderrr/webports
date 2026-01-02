@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Radi3_Idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				177,
+				-130
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Radi3_Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				125,
+				-170
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Radi3_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-61,
+				29
+			],
+			"anim": "singUP",
+			"fps": 25,
+			"name": "Radi3_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				178,
+				-144
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Radi3_Down0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/RadI_Phase3_Assets",
+	"position": [
+		0,
+		200
+	],
+	"healthicon": "radi3",
+	"flip_x": false,
+	"healthbar_colors": [
+		134,
+		255,
+		31
+	],
+	"camera_position": [
+		-100,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 1.8
+}

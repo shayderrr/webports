@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "eteled idle dance"
+		},
+		{
+			"offsets": [
+				250,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "eteled Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				-16,
+				-95
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "eteled Sing Note DOWN"
+		},
+		{
+			"offsets": [
+				4,
+				68
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "eteled Sing Note UP"
+		},
+		{
+			"offsets": [
+				-30,
+				-63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "eteled Sing Note RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				120,
+				150
+			],
+			"anim": "scream",
+			"fps": 24,
+			"name": "eteled SCREAM",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/eteled3_assets",
+	"position": [
+		70,
+		150
+	],
+	"healthicon": "eteledAngry",
+	"flip_x": false,
+	"healthbar_colors": [
+		82,
+		112,
+		170
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

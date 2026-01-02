@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				207,
+				143
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "pinkie down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				204,
+				143
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "pinkie up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				-5
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "pinkie idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-178,
+				-32
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "pinkie left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				188,
+				126
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "pinkie right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pinkie",
+	"position": [
+		-90,
+		140
+	],
+	"healthicon": "pinkie",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		153
+	],
+	"camera_position": [
+		260,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

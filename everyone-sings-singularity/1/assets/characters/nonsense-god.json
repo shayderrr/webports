@@ -1,0 +1,164 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-77,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"offsets": [
+				140,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "WhatYouKnowAboutRollingDownInTheDeep"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				88
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle god",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				94
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "god up long note",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				89
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "God down",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				89
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left god",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				89
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "god right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				713,
+				391
+			],
+			"anim": "die god",
+			"fps": 24,
+			"name": "die god",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Nonsense_God",
+	"position": [
+		-50,
+		0
+	],
+	"healthicon": "nonsense-god",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		222,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

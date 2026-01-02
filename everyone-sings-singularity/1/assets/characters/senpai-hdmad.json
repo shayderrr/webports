@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Angry Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-39
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Angry Down pose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				49
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Angry Up pose",
+			"indices": []
+		},
+		{
+			"offsets": [
+				48,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Angry Right pose"
+		},
+		{
+			"offsets": [
+				31,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Angry Left pose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/senpaiHD",
+	"position": [
+		-20,
+		-40
+	],
+	"healthicon": "hdsenpaiMad",
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		169,
+		111
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
