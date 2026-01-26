@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Void</title>
+
+<!-- JetBrains Mono -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'JetBrains Mono', monospace;
+    overflow: hidden;
+    color: white;
+}
+
+/* Background image */
+#bg-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+}
+
+#bg-layer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.75);
+}
+
+/* Dark overlay */
+#bg-layer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(20,20,20,.6), rgba(5,5,5,.9));
+}
+
+/* Snow layer */
+#particles-js {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* UI */
+.main-ui {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+}
+
+.welcome-text {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    background: linear-gradient(270deg, #1a0033, #000, #4b0082, #fff);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.search-box {
+    width: 320px;
+    max-width: 100%;
+}
+
+.search-box p {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+.input-style {
+    width: 100%;
+    background: rgba(0,0,0,.45);
+    border: 1px solid rgba(255,255,255,.15);
+    padding: 10px 14px;
+    color: white;
+    text-align: center;
+    outline: none;
+}
+
+.input-style:focus {
+    border-color: #4b0082;
+}
+
+/* Click shield */
+#click-shield {
+    position: fixed;
+    inset: 0;
+    background: black;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 1.5s ease;
+}
+
+#click-shield p {
+    font-size: .8rem;
+    letter-spacing: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="click-shield"><p>something</p></div>
+
+<div id="bg-layer">
+    <img src="https://cdn.jsdelivr.net/gh/shayderrr/assetscool@3a593db0776a11c900e8511371a6276606ad7a28/bf5c533a058bbe1c69f5c2829fc886c0.jpg">
+</div>
+
+<div id="particles-js"></div>
+
+<div class="main-ui">
+    <h1 class="welcome-text">welcome</h1>
+
+    <div class="search-box">
+        <p>search</p>
+        <form action="https://duckduckgo.com/" method="get">
+            <input class="input-style" name="q" placeholder="..." autocomplete="off">
+        </form>
+    </div>
+</div>
+
+<audio id="music" loop>
+    <source src="https://cdn.jsdelivr.net/gh/shayderrr/assetscool@3a593db0776a11c900e8511371a6276606ad7a28/Ambient-BreakcoreDnB-Mix-02.mp3">
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+const shield = document.getElementById("click-shield");
+shield.onclick = () => {
+    shield.style.opacity = "0";
+    setTimeout(() => shield.remove(), 1500);
+    document.getElementById("music").play().catch(()=>{});
+};
+
+particlesJS("particles-js", {
+    particles: {
+        number: { value: 120, density: { enable: true, value_area: 800 }},
+        color: { value: "#000000" },   // BLACK snow
+        shape: { type: "circle" },
+        opacity: { value: 0.9, random: true },
+        size: { value: 3.5, random: true },
+        move: {
+            enable: true,
+            speed: 0.8,
+            direction: "bottom",
+            random: true,
+            straight: false,
+            out_mode: "out"
+        }
+    },
+    interactivity: { events: { onhover: { enable: false }}},
+    retina_detect: true
+});
+</script>
+
+</body>
+</html>
